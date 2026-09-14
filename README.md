@@ -7,7 +7,7 @@
 <h1 align="center">Forensic Medical Records Management System</h1>
 
 <p align="center">
-  <strong>CO2050 — Database Systems Course Project</strong><br />
+  <strong>CO2050 — Database Systems Module Project</strong><br />
   Department of Computer Engineering | Faculty of Engineering | University of Peradeniya
 </p>
 
@@ -68,7 +68,7 @@ The official academic report for this project is available in this repository:
 
 In Sri Lanka's healthcare and judicial ecosystem, forensic medical records (MLEF, MLR, PMR, and Autopsy reports) have traditionally relied on handwritten paperwork, physical registries, and fragmented departmental archives. This introduces critical vulnerabilities: loss or degradation of sensitive evidence, slow turnaround times for court trials, unauthorized record manipulation, and delayed laboratory specimen analysis.
 
-Developed for the **CO2050 Database Systems** course at the **University of Peradeniya**, the **Forensic Medical Records Management System** transforms this workflow into an enterprise-grade, paperless, tamper-evident digital platform.
+Developed for the **CO2050 Database Systems** module at the **University of Peradeniya**, the **Forensic Medical Records Management System** transforms this workflow into an enterprise-grade, paperless, tamper-evident digital platform.
 
 ### Core Objectives:
 1. **Relational Integrity & Legal Compliance**: Strict adherence to relational database constraints, cascading integrity, and foreign-key validation reflecting Sri Lankan legal procedures.
@@ -528,12 +528,42 @@ When the database is seeded using `npm run db:seed`, the following accounts are 
 
 ---
 
-## 👥 Team Mythix (Group 03)
+## 👥 Team Mythix (Group 03) — Contributors
 
-Developed with pride for the **CO2050 Database Systems** course:
-
+Developed with pride for the **CO2050 Database Systems** module:
 - **Department of Computer Engineering**, Faculty of Engineering
 - **University of Peradeniya**, Sri Lanka
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <img src="https://people.ce.pdn.ac.lk/images/students/e22/e22130.jpg" width="115" height="115" alt="S.H.S. Hansara" style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" /><br /><br />
+        <strong>S.H.S. Hansara</strong><br />
+        <code>E/22/130</code><br />
+        <a href="mailto:e22130@eng.pdn.ac.lk">e22130@eng.pdn.ac.lk</a>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://people.ce.pdn.ac.lk/images/students/e22/e22008.jpg" width="115" height="115" alt="T.H. Abeywickrama" style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" /><br /><br />
+        <strong>T.H. Abeywickrama</strong><br />
+        <code>E/22/008</code><br />
+        <a href="mailto:e22008@eng.pdn.ac.lk">e22008@eng.pdn.ac.lk</a>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://people.ce.pdn.ac.lk/images/students/e22/e22126.jpg" width="115" height="115" alt="H.P.J. Gunawardhana" style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" /><br /><br />
+        <strong>H.P.J. Gunawardhana</strong><br />
+        <code>E/22/126</code><br />
+        <a href="mailto:e22126@eng.pdn.ac.lk">e22126@eng.pdn.ac.lk</a>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://people.ce.pdn.ac.lk/images/students/e22/e22135.jpg" width="115" height="115" alt="H.T.D. Hatharasinghe" style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" /><br /><br />
+        <strong>H.T.D. Hatharasinghe</strong><br />
+        <code>E/22/135</code><br />
+        <a href="mailto:e22135@eng.pdn.ac.lk">e22135@eng.pdn.ac.lk</a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ### Repository & Artifacts:
 - **Project Report**: [Group03_Report.pdf](./Group03_Report.pdf)
@@ -544,5 +574,5 @@ Developed with pride for the **CO2050 Database Systems** course:
 ---
 
 <p align="center">
-  <sub>© 2026 Team Mythix — Built for academic evaluation under CO2050 Database Systems.</sub>
+  <sub>© 2026 Team Mythix — Built for academic evaluation under CO2050 Database Systems module.</sub>
 </p>
