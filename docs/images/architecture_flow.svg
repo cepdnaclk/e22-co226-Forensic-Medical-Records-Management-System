@@ -1,0 +1,363 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" width="100%" height="100%" style="background:#0b0f19; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+
+    <!-- Card Gradients -->
+    <linearGradient id="awsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141c2e"/>
+      <stop offset="100%" stop-color="#0e1524"/>
+    </linearGradient>
+    <linearGradient id="jenkinsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d1519"/>
+      <stop offset="100%" stop-color="#1a0c10"/>
+    </linearGradient>
+    <linearGradient id="dockerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a2540"/>
+      <stop offset="100%" stop-color="#081b2e"/>
+    </linearGradient>
+    <linearGradient id="reactGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#082b3a"/>
+      <stop offset="100%" stop-color="#061a24"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d2b17"/>
+      <stop offset="100%" stop-color="#081c0f"/>
+    </linearGradient>
+    <linearGradient id="dbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18273f"/>
+      <stop offset="100%" stop-color="#0f192b"/>
+    </linearGradient>
+    <linearGradient id="clientGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241838"/>
+      <stop offset="100%" stop-color="#150e22"/>
+    </linearGradient>
+
+    <!-- Glow / Shadow -->
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#38bdf8" flood-opacity="0.4"/>
+    </filter>
+
+    <!-- Markers -->
+    <marker id="arrowCyan" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,1 L7,4 L0,7 Z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,1 L7,4 L0,7 Z" fill="#4ade80"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,1 L7,4 L0,7 Z" fill="#fb923c"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,1 L7,4 L0,7 Z" fill="#c084fc"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,1 L7,4 L0,7 Z" fill="#f87171"/>
+    </marker>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="780" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid lines -->
+  <g opacity="0.05">
+    <path d="M0 60 H1200 M0 120 H1200 M0 180 H1200 M0 240 H1200 M0 300 H1200 M0 360 H1200 M0 420 H1200 M0 480 H1200 M0 540 H1200 M0 600 H1200 M0 660 H1200 M0 720 H1200" stroke="#ffffff" stroke-width="1"/>
+    <path d="M60 0 V780 M120 0 V780 M180 0 V780 M240 0 V780 M300 0 V780 M360 0 V780 M420 0 V780 M480 0 V780 M540 0 V780 M600 0 V780 M660 0 V780 M720 0 V780 M780 0 V780 M840 0 V780 M900 0 V780 M960 0 V780 M1020 0 V780 M1080 0 V780 M1140 0 V780" stroke="#ffffff" stroke-width="1"/>
+  </g>
+
+  <!-- Title Header Bar -->
+  <rect x="40" y="24" width="1120" height="60" rx="14" fill="#131d31" stroke="#1e293b" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <circle cx="70" cy="54" r="16" fill="#38bdf8" opacity="0.15"/>
+  <text x="70" y="60" font-size="18" text-anchor="middle" fill="#38bdf8">⚡</text>
+  <text x="100" y="47" font-size="18" font-weight="700" fill="#f8fafc">Forensic Medical Records System — Production Cloud Architecture</text>
+  <text x="100" y="67" font-size="12" fill="#94a3b8">End-to-End Flow: Developer Push ➔ Jenkins CI/CD ➔ AWS EC2 ➔ Docker Compose Containers ➔ PostgreSQL Relational Database</text>
+  
+  <rect x="990" y="38" width="150" height="32" rx="16" fill="#1e293b" stroke="#ff9900" stroke-width="1.2"/>
+  <text x="1065" y="58" font-size="12" font-weight="700" fill="#ff9900" text-anchor="middle">☁️ AWS EC2 DEPLOYED</text>
+
+  <!-- ==================== LEFT COLUMN: CI/CD & GIT WORKFLOW ==================== -->
+
+  <!-- Git / Developer Box -->
+  <g transform="translate(40, 110)">
+    <rect width="260" height="150" rx="12" fill="#151d2f" stroke="#334155" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <rect x="16" y="16" width="36" height="36" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+    <text x="34" y="40" font-size="18" text-anchor="middle">💻</text>
+    <text x="64" y="34" font-size="15" font-weight="700" fill="#f1f5f9">Developer &amp; Git</text>
+    <text x="64" y="50" font-size="11" fill="#94a3b8">Team Mythix (Group 03)</text>
+
+    <path d="M16 68 H244" stroke="#1e293b" stroke-width="1"/>
+
+    <rect x="16" y="78" width="228" height="26" rx="6" fill="#0f172a"/>
+    <text x="26" y="95" font-size="11" fill="#38bdf8" font-family="monospace">git push origin main</text>
+
+    <rect x="16" y="110" width="228" height="26" rx="6" fill="#0f172a"/>
+    <text x="26" y="127" font-size="11" fill="#a78bfa">GitHub Webhook: push()</text>
+  </g>
+
+  <!-- Jenkins CI/CD Box -->
+  <g transform="translate(40, 290)">
+    <rect width="260" height="450" rx="12" fill="url(#jenkinsGrad)" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.6" filter="url(#cardShadow)"/>
+    
+    <!-- Header -->
+    <rect x="16" y="16" width="40" height="40" rx="8" fill="#3b1318" stroke="#ef4444" stroke-width="1"/>
+    <text x="36" y="42" font-size="20" text-anchor="middle">⚙️</text>
+    <text x="68" y="34" font-size="16" font-weight="700" fill="#f87171">Jenkins CI / CD</text>
+    <text x="68" y="52" font-size="11" fill="#fca5a5">Automated Pipeline on EC2</text>
+
+    <path d="M16 70 H244" stroke="#451a1e" stroke-width="1"/>
+
+    <!-- Stage 1 -->
+    <g transform="translate(16, 82)">
+      <rect width="228" height="52" rx="8" fill="#1f1317" stroke="#371a1f" stroke-width="1"/>
+      <circle cx="20" cy="26" r="10" fill="#22c55e" opacity="0.2"/>
+      <text x="20" y="30" font-size="11" fill="#4ade80" text-anchor="middle">✓</text>
+      <text x="38" y="22" font-size="12" font-weight="600" fill="#f1f5f9">1. Checkout SCM</text>
+      <text x="38" y="38" font-size="10" fill="#94a3b8">Pulls latest commits from origin/main</text>
+    </g>
+
+    <!-- Stage 2 -->
+    <g transform="translate(16, 142)">
+      <rect width="228" height="56" rx="8" fill="#1f1317" stroke="#371a1f" stroke-width="1"/>
+      <circle cx="20" cy="28" r="10" fill="#22c55e" opacity="0.2"/>
+      <text x="20" y="32" font-size="11" fill="#4ade80" text-anchor="middle">✓</text>
+      <text x="38" y="22" font-size="12" font-weight="600" fill="#f1f5f9">2. Backend Test Suite</text>
+      <text x="38" y="37" font-size="10" fill="#f87171" font-family="monospace">npm test (Jest + Supertest)</text>
+      <text x="38" y="49" font-size="10" fill="#94a3b8">7 route suites: auth, mlef, pmr, lab...</text>
+    </g>
+
+    <!-- Stage 3 -->
+    <g transform="translate(16, 206)">
+      <rect width="228" height="56" rx="8" fill="#1f1317" stroke="#371a1f" stroke-width="1"/>
+      <circle cx="20" cy="28" r="10" fill="#22c55e" opacity="0.2"/>
+      <text x="20" y="32" font-size="11" fill="#4ade80" text-anchor="middle">✓</text>
+      <text x="38" y="22" font-size="12" font-weight="600" fill="#f1f5f9">3. Frontend Test Suite</text>
+      <text x="38" y="37" font-size="10" fill="#38bdf8" font-family="monospace">npm test (Vitest + RTL)</text>
+      <text x="38" y="49" font-size="10" fill="#94a3b8">UI components, PDF generator tests</text>
+    </g>
+
+    <!-- Stage 4 -->
+    <g transform="translate(16, 270)">
+      <rect width="228" height="54" rx="8" fill="#1f1317" stroke="#371a1f" stroke-width="1"/>
+      <circle cx="20" cy="27" r="10" fill="#22c55e" opacity="0.2"/>
+      <text x="20" y="31" font-size="11" fill="#4ade80" text-anchor="middle">✓</text>
+      <text x="38" y="22" font-size="12" font-weight="600" fill="#f1f5f9">4. Secure Secret Injection</text>
+      <text x="38" y="37" font-size="10" fill="#fb923c">Injects /project_secrets/*.env</text>
+      <text x="38" y="48" font-size="10" fill="#94a3b8">Keeps DB URI &amp; JWT secret isolated</text>
+    </g>
+
+    <!-- Stage 5 -->
+    <g transform="translate(16, 332)">
+      <rect width="228" height="52" rx="8" fill="#1f1317" stroke="#371a1f" stroke-width="1"/>
+      <circle cx="20" cy="26" r="10" fill="#22c55e" opacity="0.2"/>
+      <text x="20" y="30" font-size="11" fill="#4ade80" text-anchor="middle">✓</text>
+      <text x="38" y="22" font-size="12" font-weight="600" fill="#f1f5f9">5. Zero-Downtime Deploy</text>
+      <text x="38" y="38" font-size="10" fill="#38bdf8" font-family="monospace">docker compose up -d --build</text>
+    </g>
+
+    <!-- Stage 6 -->
+    <g transform="translate(16, 392)">
+      <rect width="228" height="44" rx="8" fill="#1f1317" stroke="#371a1f" stroke-width="1"/>
+      <circle cx="20" cy="22" r="10" fill="#22c55e" opacity="0.2"/>
+      <text x="20" y="26" font-size="11" fill="#4ade80" text-anchor="middle">✓</text>
+      <text x="38" y="19" font-size="11" font-weight="600" fill="#f1f5f9">6. Prune &amp; Disk Guard</text>
+      <text x="38" y="34" font-size="10" fill="#94a3b8">docker image prune -af (30GB limit safe)</text>
+    </g>
+  </g>
+
+  <!-- ==================== MAIN CENTER: AWS EC2 INSTANCE ==================== -->
+  
+  <g transform="translate(340, 110)">
+    <!-- AWS Outer Box -->
+    <rect width="560" height="630" rx="16" fill="url(#awsGrad)" stroke="#ff9900" stroke-width="2" stroke-opacity="0.8" filter="url(#cardShadow)"/>
+    
+    <!-- AWS Badge Header -->
+    <g transform="translate(24, 20)">
+      <rect width="48" height="48" rx="10" fill="#232f3e" stroke="#ff9900" stroke-width="1.5"/>
+      <text x="24" y="32" font-size="20" text-anchor="middle">☁️</text>
+      <text x="64" y="26" font-size="18" font-weight="700" fill="#ffffff">Amazon Web Services (AWS) EC2</text>
+      <text x="64" y="44" font-size="12" fill="#ff9900">Ubuntu Linux Virtual Machine Host • Public IP &amp; Cloud Security Group</text>
+    </g>
+
+    <!-- Docker Compose Boundary Box Inside EC2 -->
+    <g transform="translate(24, 85)">
+      <rect width="512" height="520" rx="14" fill="url(#dockerGrad)" stroke="#2496ed" stroke-width="1.5" stroke-dasharray="6,4"/>
+      
+      <!-- Docker Header -->
+      <g transform="translate(16, 14)">
+        <rect width="32" height="32" rx="6" fill="#0c3254" stroke="#2496ed" stroke-width="1"/>
+        <text x="16" y="22" font-size="14" text-anchor="middle">🐳</text>
+        <text x="44" y="18" font-size="14" font-weight="700" fill="#38bdf8">Docker Compose Orchestration Engine</text>
+        <text x="44" y="30" font-size="10" fill="#93c5fd">Isolated Bridge Network • Container Health Checks • Auto Restart</text>
+      </g>
+
+      <!-- Container 1: Frontend (React + Vite + Nginx) -->
+      <g transform="translate(20, 60)">
+        <rect width="472" height="185" rx="12" fill="url(#reactGrad)" stroke="#38bdf8" stroke-width="1.5" filter="url(#cardShadow)"/>
+        
+        <rect x="16" y="14" width="36" height="36" rx="8" fill="#08384f" stroke="#38bdf8" stroke-width="1"/>
+        <text x="34" y="38" font-size="18" text-anchor="middle">⚛️</text>
+        <text x="64" y="28" font-size="15" font-weight="700" fill="#e0f2fe">Container: forensic-frontend</text>
+        <text x="64" y="44" font-size="11" fill="#7dd3fc">React 18 • TypeScript 5 • Vite • Tailwind CSS v4 • Lucide Icons</text>
+        
+        <rect x="360" y="16" width="96" height="24" rx="12" fill="#0369a1"/>
+        <text x="408" y="32" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">PORT 80:80</text>
+
+        <path d="M16 60 H456" stroke="#0e4359" stroke-width="1"/>
+
+        <!-- Inner features -->
+        <g transform="translate(16, 72)">
+          <rect width="210" height="42" rx="6" fill="#082330" stroke="#0e4359" stroke-width="1"/>
+          <text x="10" y="18" font-size="11" font-weight="600" fill="#bae6fd">Nginx High-Perf Web Server</text>
+          <text x="10" y="33" font-size="10" fill="#94a3b8">SPA Routing fallback + gzip assets</text>
+
+          <rect x="226" y="0" width="214" height="42" rx="6" fill="#082330" stroke="#0e4359" stroke-width="1"/>
+          <text x="236" y="18" font-size="11" font-weight="600" fill="#bae6fd">Client-Side PDF Generator</text>
+          <text x="236" y="33" font-size="10" fill="#94a3b8">jsPDF &amp; AutoTable Court Reports</text>
+
+          <rect x="0" y="50" width="440" height="48" rx="6" fill="#082330" stroke="#0e4359" stroke-width="1"/>
+          <text x="10" y="68" font-size="11" font-weight="600" fill="#38bdf8">20+ Medico-Legal UI Modules:</text>
+          <text x="10" y="86" font-size="10" fill="#94a3b8">MLEF (Parts A &amp; B) | MLR Cataloging | PMR Autopsy Dissections | Lab Triage</text>
+        </g>
+      </g>
+
+      <!-- Connection Arrow Between Frontend and Backend -->
+      <path d="M256 255 V285" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrowCyan)"/>
+      <rect x="180" y="260" width="150" height="18" rx="9" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="255" y="273" font-size="9.5" fill="#38bdf8" text-anchor="middle" font-family="monospace">REST API Requests (/api/*)</text>
+
+      <!-- Container 2: Backend (Node.js + Express 5) -->
+      <g transform="translate(20, 295)">
+        <rect width="472" height="205" rx="12" fill="url(#nodeGrad)" stroke="#22c55e" stroke-width="1.5" filter="url(#cardShadow)"/>
+        
+        <rect x="16" y="14" width="36" height="36" rx="8" fill="#0f381c" stroke="#22c55e" stroke-width="1"/>
+        <text x="34" y="38" font-size="18" text-anchor="middle">🟩</text>
+        <text x="64" y="28" font-size="15" font-weight="700" fill="#dcfce7">Container: forensic-backend</text>
+        <text x="64" y="44" font-size="11" fill="#86efac">Node.js ES Modules • Express.js 5.x • Connection Pooling (pg.Pool)</text>
+        
+        <rect x="340" y="16" width="116" height="24" rx="12" fill="#15803d"/>
+        <text x="398" y="32" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">PORT 3000:3000</text>
+
+        <path d="M16 60 H456" stroke="#164523" stroke-width="1"/>
+
+        <!-- Backend Features -->
+        <g transform="translate(16, 70)">
+          <rect width="210" height="56" rx="6" fill="#092011" stroke="#164523" stroke-width="1"/>
+          <text x="10" y="18" font-size="11" font-weight="600" fill="#bbf7d0">🔐 RBAC &amp; Auth Guard</text>
+          <text x="10" y="34" font-size="10" fill="#94a3b8">JWT tokens, Bcrypt hash</text>
+          <text x="10" y="48" font-size="10" fill="#94a3b8">Roles: doctor, jmo, admin, lab</text>
+
+          <rect x="226" y="0" width="214" height="56" rx="6" fill="#092011" stroke="#164523" stroke-width="1"/>
+          <text x="236" y="18" font-size="11" font-weight="600" fill="#bbf7d0">🛡️ Input Sanitization &amp; Safe API</text>
+          <text x="236" y="34" font-size="10" fill="#94a3b8">Recursive payload cleaner</text>
+          <text x="236" y="48" font-size="10" fill="#94a3b8">Centralized error logging</text>
+
+          <rect x="0" y="66" width="440" height="56" rx="6" fill="#092011" stroke="#164523" stroke-width="1"/>
+          <text x="10" y="84" font-size="11" font-weight="600" fill="#4ade80">Dynamic Auto-Migrations &amp; Schema Integrity</text>
+          <text x="10" y="99" font-size="10" fill="#94a3b8">Startup checks ensure all columns and B-Tree indexes exist automatically</text>
+          <text x="10" y="113" font-size="10" fill="#86efac">Nodemailer SMTP integration for email verification and OTP passwords</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT COLUMN: DATABASE & CLIENTS ==================== -->
+
+  <!-- Top Right: End Users / Stakeholders -->
+  <g transform="translate(930, 110)">
+    <rect width="230" height="230" rx="12" fill="url(#clientGrad)" stroke="#a855f7" stroke-width="1.5" filter="url(#cardShadow)"/>
+    
+    <rect x="16" y="16" width="36" height="36" rx="8" fill="#2e1065" stroke="#a855f7" stroke-width="1"/>
+    <text x="34" y="40" font-size="18" text-anchor="middle">👥</text>
+    <text x="64" y="32" font-size="14" font-weight="700" fill="#f3e8ff">Client Access</text>
+    <text x="64" y="48" font-size="10.5" fill="#d8b4fe">Stakeholder Personas</text>
+
+    <path d="M16 64 H214" stroke="#3b0764" stroke-width="1"/>
+
+    <g transform="translate(16, 74)">
+      <rect width="198" height="32" rx="6" fill="#1b0e2f" stroke="#3b0764" stroke-width="1"/>
+      <text x="10" y="20" font-size="11" fill="#f3e8ff">🩺 Forensic Doctors (MO)</text>
+
+      <rect y="38" width="198" height="32" rx="6" fill="#1b0e2f" stroke="#3b0764" stroke-width="1"/>
+      <text x="10" y="58" font-size="11" fill="#f3e8ff">⚖️ Judicial Med Officers (JMO)</text>
+
+      <rect y="76" width="198" height="32" rx="6" fill="#1b0e2f" stroke="#3b0764" stroke-width="1"/>
+      <text x="10" y="96" font-size="11" fill="#f3e8ff">👮 Police &amp; Hospital Admins</text>
+
+      <rect y="114" width="198" height="32" rx="6" fill="#1b0e2f" stroke="#3b0764" stroke-width="1"/>
+      <text x="10" y="134" font-size="11" fill="#f3e8ff">🔬 Forensic Lab Analysts</text>
+    </g>
+  </g>
+
+  <!-- Bottom Right: PostgreSQL Database -->
+  <g transform="translate(930, 360)">
+    <rect width="230" height="380" rx="12" fill="url(#dbGrad)" stroke="#38bdf8" stroke-width="1.5" filter="url(#cardShadow)"/>
+    
+    <rect x="16" y="16" width="36" height="36" rx="8" fill="#082b45" stroke="#38bdf8" stroke-width="1"/>
+    <text x="34" y="40" font-size="18" text-anchor="middle">🐘</text>
+    <text x="64" y="32" font-size="15" font-weight="700" fill="#e0f2fe">PostgreSQL DB</text>
+    <text x="64" y="48" font-size="10.5" fill="#7dd3fc">Relational Data Store</text>
+
+    <path d="M16 64 H214" stroke="#163753" stroke-width="1"/>
+
+    <!-- Schema Entities -->
+    <g transform="translate(16, 76)">
+      <rect width="198" height="34" rx="6" fill="#0a1d30" stroke="#163753" stroke-width="1"/>
+      <text x="10" y="16" font-size="11" font-weight="600" fill="#bae6fd">users (RBAC, bcrypt)</text>
+      <text x="10" y="28" font-size="9" fill="#94a3b8">Doctors, JMOs, Admins, Lab</text>
+
+      <rect y="40" width="198" height="34" rx="6" fill="#0a1d30" stroke="#163753" stroke-width="1"/>
+      <text x="10" y="56" font-size="11" font-weight="600" fill="#bae6fd">patients (Demographics)</text>
+      <text x="10" y="68" font-size="9" fill="#94a3b8">NIC uniqueness, guardian info</text>
+
+      <rect y="80" width="198" height="42" rx="6" fill="#0a1d30" stroke="#163753" stroke-width="1"/>
+      <text x="10" y="96" font-size="11" font-weight="600" fill="#bae6fd">mlef_forms &amp; mlr_reports</text>
+      <text x="10" y="108" font-size="9" fill="#94a3b8">mlr_injuries, mlr_grievous_entries</text>
+      <text x="10" y="118" font-size="8.5" fill="#38bdf8">1-to-Many CASCADE FK</text>
+
+      <rect y="128" width="198" height="42" rx="6" fill="#0a1d30" stroke="#163753" stroke-width="1"/>
+      <text x="10" y="144" font-size="11" font-weight="600" fill="#bae6fd">pmr_forms &amp; autopsy_forms</text>
+      <text x="10" y="156" font-size="9" fill="#94a3b8">pmr_identifiers, autopsy_articles</text>
+      <text x="10" y="166" font-size="8.5" fill="#38bdf8">Court Inquest &amp; Evidence Log</text>
+
+      <rect y="176" width="198" height="36" rx="6" fill="#0a1d30" stroke="#163753" stroke-width="1"/>
+      <text x="10" y="192" font-size="11" font-weight="600" fill="#bae6fd">lab_requests (Diagnostic)</text>
+      <text x="10" y="204" font-size="9" fill="#94a3b8">Toxicology, Blood Alcohol, Drugs</text>
+
+      <!-- Supabase & Indexes -->
+      <rect y="220" width="198" height="68" rx="6" fill="#0c233a" stroke="#0284c7" stroke-width="1"/>
+      <text x="10" y="236" font-size="10.5" font-weight="700" fill="#38bdf8">⚡ B-Tree Performance Indexes:</text>
+      <text x="10" y="250" font-size="9" fill="#e2e8f0">• idx_mlef_forms_patient_id</text>
+      <text x="10" y="262" font-size="9" fill="#e2e8f0">• idx_mlr_reports_patient_id</text>
+      <text x="10" y="274" font-size="9" fill="#e2e8f0">• idx_lab_requests_patient_id</text>
+    </g>
+  </g>
+
+  <!-- ==================== FLOW CONNECTORS & DATA LINES ==================== -->
+
+  <!-- 1. Git Push to Jenkins -->
+  <path d="M170 260 V290" stroke="#ef4444" stroke-width="2.5" marker-end="url(#arrowRed)"/>
+  <rect x="120" y="266" width="100" height="18" rx="9" fill="#1e1014" stroke="#ef4444" stroke-width="0.8"/>
+  <text x="170" y="279" font-size="9" fill="#fca5a5" text-anchor="middle">Webhook Event</text>
+
+  <!-- 2. Jenkins to AWS EC2 Docker Deploy -->
+  <path d="M300 450 H340" stroke="#22c55e" stroke-width="3" marker-end="url(#arrowGreen)"/>
+  <rect x="290" y="426" width="60" height="18" rx="9" fill="#0b2413" stroke="#22c55e" stroke-width="0.8"/>
+  <text x="320" y="439" font-size="9" fill="#86efac" text-anchor="middle">Deploy</text>
+
+  <!-- 3. Client to EC2 Frontend (Port 80) -->
+  <path d="M930 210 H832" stroke="#a855f7" stroke-width="2.5" marker-end="url(#arrowPurple)"/>
+  <rect x="850" y="196" width="70" height="18" rx="9" fill="#240c38" stroke="#a855f7" stroke-width="0.8"/>
+  <text x="885" y="209" font-size="9.5" fill="#e9d5ff" text-anchor="middle">HTTP: 80</text>
+
+  <!-- 4. Backend Container to PostgreSQL Database (Port 5432) -->
+  <path d="M832 505 H930" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrowCyan)"/>
+  <rect x="846" y="492" width="76" height="18" rx="9" fill="#072033" stroke="#38bdf8" stroke-width="0.8"/>
+  <text x="884" y="505" font-size="9.5" fill="#7dd3fc" text-anchor="middle">SQL: 5432</text>
+</svg>
