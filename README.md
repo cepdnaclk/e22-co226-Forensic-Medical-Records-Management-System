@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#forensic-medical-records-management-system">
-    <img src="./images/Mythix_logo.png" alt="Team Mythix Logo" width="160" height="160" style="border-radius: 50%; box-shadow: 0 4px 20px rgba(0,0,0,0.35);" />
+    <img src="./code/images/Mythix_logo.png" alt="Team Mythix Logo" width="160" height="160" style="border-radius: 50%; box-shadow: 0 4px 20px rgba(0,0,0,0.35);" />
   </a>
 </p>
 
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="./Group03_Report.pdf"><img src="https://img.shields.io/badge/Project_Report-Group03__Report.pdf-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Project Report" /></a>
+  <a href="./code/Group03_Report.pdf"><img src="https://img.shields.io/badge/Project_Report-Group03__Report.pdf-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Project Report" /></a>
   <a href="#cloud-architecture--devops-pipeline"><img src="https://img.shields.io/badge/AWS-EC2_Deployed-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white" alt="AWS EC2" /></a>
   <a href="#cloud-architecture--devops-pipeline"><img src="https://img.shields.io/badge/Docker-Compose_Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /></a>
   <a href="#cloud-architecture--devops-pipeline"><img src="https://img.shields.io/badge/Jenkins-CI%2FCD_Automated-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" /></a>
@@ -55,7 +55,7 @@
 
 The official academic report for this project is available in this repository:
 
-> 📘 **[Download Group 03 Project Report (Group03_Report.pdf)](./Group03_Report.pdf)**
+> 📘 **[Download Group 03 Project Report (Group03_Report.pdf)](./code/Group03_Report.pdf)**
 > 
 > *Comprehensive 60+ page submission detailing domain problem analysis, relational database schema normalization (3NF/BCNF), entity relationship diagrams, query optimization, indexing benchmarks, system security policies, and deployment logs.*
 
@@ -202,7 +202,7 @@ The application is hosted on an **AWS EC2** instance with an automated continuou
 ### System Architecture Flow
 
 <p align="center">
-  <img src="./images/architecture_flow.svg" alt="System Architecture Flow Diagram" width="100%" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);" />
+  <img src="./code/images/architecture_flow.svg" alt="System Architecture Flow Diagram" width="100%" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);" />
 </p>
 
 ### End-to-End Delivery Lifecycle:
@@ -566,10 +566,10 @@ Developed with pride for the **CO2050 Database Systems** module:
 </div>
 
 ### Repository & Artifacts:
-- **Project Report**: [Group03_Report.pdf](./Group03_Report.pdf)
-- **CI/CD Configuration**: [Jenkinsfile](./Jenkinsfile)
-- **Container Definition**: [docker-compose.yml](./docker-compose.yml)
-- **Database Schema**: [backend/schema.sql](./backend/schema.sql)
+- **Project Report**: [Group03_Report.pdf](./code/Group03_Report.pdf)
+- **CI/CD Configuration**: [Jenkinsfile](./code/Jenkinsfile)
+- **Container Definition**: [docker-compose.yml](./code/docker-compose.yml)
+- **Database Schema**: [backend/schema.sql](./code/backend/schema.sql)
 
 ---
 
