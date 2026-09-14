@@ -31,5 +31,18 @@
             "email": "email@eng.pdn.ac.lk"
         }
     ],
-    "tags": []
+    "tags": [
+        "Forensic Medicine",
+        "Medical Records",
+        "PostgreSQL",
+        "Express.js",
+        "React",
+        "Node.js",
+        "Docker",
+        "AWS",
+        "Jenkins",
+        "Database Systems"
+    ],
+    "image": "cover_page.jpg",
+    "thumbnail": "thumbnail.jpg"
 }

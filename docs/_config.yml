@@ -1,9 +1,9 @@
 # This theme is based on https://github.com/jekyll/minima
 # Please refer above link to know the available configurations
 
-title: ""
+title: "Forensic Medical Records Management System"
 remote_theme: cepdnaclk/eYY-project-theme
-description: ""
+description: "An enterprise-grade, paperless, tamper-evident digital platform for managing forensic medical records, autopsy findings, and medico-legal reports, developed for CO2050 Database Systems."
 markdown: kramdown
 
 kramdown:
